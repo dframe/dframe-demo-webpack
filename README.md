@@ -1,8 +1,6 @@
 # Dframe - Demo application
 
-[![Build Status](https://travis-ci.org/dframe/dframe-demo.svg?branch=master)](https://travis-ci.org/dframe/dframe-demo)
-[![Latest Stable Version](https://poser.pugx.org/dframe/dframe-demo/v/stable)](https://packagist.org/packages/dframe/Dframe-demo) 
-[![Latest Unstable Version](https://poser.pugx.org/dframe/dframe-demo/v/unstable)](https://packagist.org/packages/dframe/Dframe-demo) 
+[![Latest Unstable Version](https://poser.pugx.org/dframe/dframe-demo/v/unstable)](https://packagist.org/packages/dframe/Dframe-demo)
 [![License](https://poser.pugx.org/dframe/dframe-demo/license)](https://packagist.org/packages/dframe/Dframe-demo)
 
 **Documentation available at** [https://dframeframework.com](https://dframeframework.com/en/page/index)
@@ -10,22 +8,40 @@
 Language
 [Polish](https://dframeframework.com/pl/page/index) | [English](https://dframeframework.com/en/page/index)
 
-Download Files and run composer update.
-https://packagist.org/packages/dframe/dframe-demo
-
-
-## Preview
-[![Preview](https://github.com/dframe/dframe-demo/blob/master/preview.png)](https://github.com/dframe/dframe-demo/blob/master/preview.png)
-
-
 ### Installation
 
-Release
+clone on download this repo
 
-    composer create-project dframe/dframe-demo project_name
+run
 
-Or dev
+    composer install
 
-    composer create-project dframe/dframe-demo --stability=dev project_name_dev
+next
 
+    npm install
+
+
+### Quickstart
+
+run
+
+    php -S localhost:3000 -t web/ server.php
+
+and in other terminal tab/window run
+
+    npm run watch
+
+to start watch js and scss files
+
+
+### Deploy
+run
+
+    npm run prod
+
+to create production ready bundles
+
+### Configure
+
+We use laravel-mix so if you want change something check laravel-mix documentation(https://github.com/JeffreyWay/laravel-mix/tree/master/docs#readme)
 

@@ -9,6 +9,10 @@ vendor
 
 composer.lock
 
+node_modules
+package-lock.json
+web/dist
+
 !app/View/templates_c/.gitkeep
 !app/View/cache/.gitkeep
 !app/View/logs/.gitkeep

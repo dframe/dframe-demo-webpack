@@ -1,0 +1,46 @@
+/**
+ *
+ * Example styles
+ *
+ */
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700&subset=latin-ext');
+
+$main-font: 'Lato', sans-serif;
+
+a {
+  text-decoration: none;
+  color: #000;
+  &:hover, &:active, &:visited {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+body {
+  font-family: $main-font;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  & > .row {
+    width: 100%;
+  }
+}
+
+h1 {
+  font-size: 72pt;
+  font-weight: 100;
+  width: 90%;
+  border-bottom: 1px solid #000;
+  span {
+    position: relative;
+    left: -30px;
+  }
+}
+
+h3 {
+  font-weight: 100;
+  cursor: pointer;
+}

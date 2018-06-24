@@ -1,4 +1,4 @@
-<?php 
+<?php
 $debugAllowed = array(
     '127.0.0.1',
     '::1',
@@ -28,7 +28,7 @@ define('VERSION', "Dframe");     // Version aplication
 define('SALT', "YOURSALT123");   // SALT default: YOURSALT123
 
 if (isset($_SERVER['REMOTE_ADDR']) AND ($_SERVER['REMOTE_ADDR'] == '127.0.0.1' OR $_SERVER['REMOTE_ADDR'] == '::1')) {
-    define('HTTP_HOST', $_SERVER['HTTP_HOST'].'/Dframe-demo');  // Dev
+    define('HTTP_HOST', $_SERVER['HTTP_HOST']);  // Dev
 } else {
     define('HTTP_HOST', 'website.url'); // Production
 }

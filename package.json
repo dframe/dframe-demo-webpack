@@ -1,0 +1,36 @@
+{
+  "name": "dframe-demo",
+  "version": "1.0.0",
+  "description": "[![Build Status](https://travis-ci.org/dframe/dframe-demo.svg?branch=master)](https://travis-ci.org/dframe/dframe-demo) [![Latest Stable Version](https://poser.pugx.org/dframe/dframe-demo/v/stable)](https://packagist.org/packages/dframe/Dframe-demo)  [![Latest Unstable Version](https://poser.pugx.org/dframe/dframe-demo/v/unstable)](https://packagist.org/packages/dframe/Dframe-demo)  [![License](https://poser.pugx.org/dframe/dframe-demo/license)](https://packagist.org/packages/dframe/Dframe-demo)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "prod": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dframe/dframe-demo.git"
+  },
+  "keywords": [],
+  "authors": [
+    "Sławomir Kaleta",
+    "Maciej Gorczyn"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dframe/dframe-demo/issues"
+  },
+  "homepage": "https://github.com/dframe/dframe-demo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.1.6",
+    "laravel-mix": "^2.1.11",
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "jquery": "^3.3.1"
+  }
+}

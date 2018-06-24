@@ -1,8 +1,8 @@
 {
-    "name": "dframe/dframe-demo",
-    "description": "It is a simple demo website based on Dframeframework and Laravel-mix",
+    "name": "dframe/dframe-demo-webpack",
+    "description": "It is a simple demo website based on Dframe Framework and Laravel-mix",
     "license": "MIT",
-    "keywords": ["dframe", "demo", "framework", "website", "application", "blog", "laravel-mix"],
+    "keywords": ["dframe", "demo", "framework", "website", "application", "blog", "laravel-mix", "dframe-mix"],
     "homepage": "https://dframeframework.com",
     "type": "project",
     "autoload": {

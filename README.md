@@ -10,7 +10,7 @@ Language
 
 ### Installation
 
-Clone on download this repo
+Clone or download this repo
 
 Run
 ``` bash

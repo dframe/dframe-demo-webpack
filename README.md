@@ -1,7 +1,7 @@
 # Dframe - Demo application
 
-[![Latest Unstable Version](https://poser.pugx.org/dframe/dframe-demo/v/unstable)](https://packagist.org/packages/dframe/Dframe-demo)
-[![License](https://poser.pugx.org/dframe/dframe-demo/license)](https://packagist.org/packages/dframe/Dframe-demo)
+[![Latest Unstable Version](https://poser.pugx.org/dframe/dframe-demo-webpack/v/unstable)](https://packagist.org/packages/dframe/dframe-demo-webpack)
+[![License](https://poser.pugx.org/dframe/dframe-demo-webpack/license)](https://packagist.org/packages/dframe/dframe-demo-webpack)
 
 **Documentation available at** [https://dframeframework.com](https://dframeframework.com/en/page/index)
 
@@ -10,38 +10,41 @@ Language
 
 ### Installation
 
-clone on download this repo
+Clone on download this repo
 
-run
+Run
+``` bash
+composer install
+```
 
-    composer install
-
-next
-
-    npm install
-
+Next
+``` bash
+npm install
+````
 
 ### Quickstart
 
-run
-
-    php -S localhost:3000 -t web/ server.php
+Run
+``` bash
+php -S localhost:3000 -t web/ server.php
+```
 
 and in other terminal tab/window run
-
-    npm run watch
+``` bash
+npm run watch
+```
 
 to start watch js and scss files
 
-
 ### Deploy
-run
 
-    npm run prod
+Run
+``` bash
+npm run prod
+```
 
 to create production ready bundles
 
 ### Configure
 
 We use laravel-mix so if you want change something check laravel-mix documentation(https://github.com/JeffreyWay/laravel-mix/tree/master/docs#readme)
-

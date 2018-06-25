@@ -1,36 +1,35 @@
 {
-    "name": "dframe-demo-webpack-webpack",
-    "version": "1.0.0",
-    "description": "[![Build Status](https://travis-ci.org/dframe/dframe-demo-webpack.svg?branch=master)](https://travis-ci.org/dframe/dframe-demo-webpack) [![Latest Stable Version](https://poser.pugx.org/dframe/dframe-demo-webpack/v/stable)](https://packagist.org/packages/dframe/Dframe-demo)  [![Latest Unstable Version](https://poser.pugx.org/dframe/dframe-demo-webpack/v/unstable)](https://packagist.org/packages/dframe/Dframe-demo)  [![License](https://poser.pugx.org/dframe/dframe-demo-webpack/license)](https://packagist.org/packages/dframe/Dframe-demo)",
-    "main": "index.js",
-    "scripts": {
-        "dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "prod": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/dframe/dframe-demo-webpack.git"
-    },
-    "keywords": [],
-    "authors": [
-        "Sławomir Kaleta",
-        "Maciej Gorczyn"
-    ],
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/dframe/dframe-demo-webpack/issues"
-    },
-    "homepage": "https://github.com/dframe/dframe-demo-webpack#readme",
-    "devDependencies": {
-        "browser-sync": "^2.24.4",
-        "browser-sync-webpack-plugin": "^2.0.1",
-        "cross-env": "^5.1.6",
-        "laravel-mix": "^2.1.11",
-        "node-sass": "^4.9.0"
-    },
-    "dependencies": {
-        "bootstrap": "^4.1.1",
-        "jquery": "^3.3.1"
-    }
+	"name": "dframe-demo-webpack-webpack",
+	"version": "1.0.1",
+	"description": "[![Build Status](https://travis-ci.org/dframe/dframe-demo-webpack.svg?branch=master)](https://travis-ci.org/dframe/dframe-demo-webpack) [![Latest Stable Version](https://poser.pugx.org/dframe/dframe-demo-webpack/v/stable)](https://packagist.org/packages/dframe/Dframe-demo-webpack)  [![Latest Unstable Version](https://poser.pugx.org/dframe/dframe-demo-webpack/v/unstable)](https://packagist.org/packages/dframe/Dframe-demo-webpack)  [![License](https://poser.pugx.org/dframe/dframe-demo-webpack/license)](https://packagist.org/packages/dframe/Dframe-demo-webpack)",
+	"scripts": {
+		"dev": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"watch": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"prod": "node node_modules/cross-env/dist/bin/cross-env.js NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dframe/dframe-demo-webpack.git"
+	},
+	"keywords": ["dframe", "demo", "webpack", "laravel-mix"],
+	"authors": [
+		"Sławomir Kaleta",
+		"Maciej Gorczyn"
+	],
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dframe/dframe-demo-webpack/issues"
+	},
+	"homepage": "https://github.com/dframe/dframe-demo-webpack#readme",
+	"devDependencies": {
+		"browser-sync": "^2.24.4",
+		"browser-sync-webpack-plugin": "^2.0.1",
+		"cross-env": "^5.1.6",
+		"laravel-mix": "^2.1.11",
+		"node-sass": "^4.9.0"
+	},
+	"dependencies": {
+		"bootstrap": "^4.1.1",
+		"jquery": "^3.3.1"
+	}
 }

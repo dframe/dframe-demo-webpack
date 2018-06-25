@@ -12,7 +12,7 @@
     function mix($path, $manifestDirectory = '')
     {
         static $manifest;
-        $publicFolder = './web/dist';
+        $publicFolder = dirname(__FILE__).'/../web/dist';
         $rootPath = $_SERVER['DOCUMENT_ROOT'];
         $publicPath = $rootPath . $publicFolder;
         if ($manifestDirectory && ! starts_with($manifestDirectory, '/')) {
